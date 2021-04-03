@@ -1,0 +1,106 @@
+.contact {
+    min-height: 600px;
+    background-image: url('/img/contact.png');
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+    // .overlay {
+    //     position: absolute;
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-color: rgba(255, 255, 255, .6);
+    //     z-index: 1;
+    // }
+    .container {
+        z-index: 2;
+
+        h2 {
+            font-weight: bold;
+            font-size: 30px;
+            color: var(--main-color);
+            margin: 0 0 50px;
+            text-align: center;
+            
+        }
+
+        form {
+            overflow: hidden;
+            max-width: 800px;
+            margin: auto;
+
+            .left {
+                float: left;
+                width: 49%;
+
+                input {
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    background-color: rgba(218, 218, 218, 0.8);
+                    height: 40px;
+                    &:focus {
+                        outline: 1px solid var(--main-color);
+
+                        &::-webkit-input-placeholder {
+                            opacity: 0;
+                            transition: .6s;
+                        }
+                    }
+                }
+                @include media-breakpoint-down('md') {
+                    float: none;
+                    width: 100%;
+                }
+            }
+            .right {
+                float: right;
+                width: 49%;
+                
+                textarea {
+                    display: block;
+                    width: 100%;
+                    padding: 10px;
+                    margin-bottom: 15px;
+                    background-color: rgba(218, 218, 218, 0.8);
+                    height: 150px;
+
+                    &:focus {
+                        outline: 1px solid var(--main-color);
+
+                        &::-webkit-input-placeholder {
+                            opacity: 0;
+                            transition: .6s;
+                        }
+                    }
+                
+
+                }
+
+                input {
+                    width: 100%;
+                    padding: 10px;
+                    height: 40px;
+                    padding: 10px;
+                    border-color: transparent;
+                    background-color: var(--main-color);
+                    color: #fff;
+                    cursor: pointer;
+
+
+                }
+
+                @include media-breakpoint-down('md') {
+                    float: none;
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+
+
+}

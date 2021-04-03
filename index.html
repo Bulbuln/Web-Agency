@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/7abf5fb391.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.1/css/all.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="setting-box">
+      <div class="toggle-setting">
+        <i class="fas fa-cog"></i>
+      </div>
+
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Color</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#03A9F4"></li>
+            <li data-color="#E91E63"></li>
+            <li data-color="#4CAF50"></li>
+            <li data-color="purple"></li>
+          </ul>
+        </div>
+
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+
+        <div class="option-box">
+          <h4>Show bullets ?</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Yes</span>
+            <span class="no" data-display="hide">No</span>
+          </div>
+        </div>
+        <button class="reset-option">Reset Option</button>
+      </div>
+    </div>
+    <!-- setting-box -->
+
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- ./bullet -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">
+            Special design
+          </div>
+          <!-- logo -->
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="" data-section=".about-us"> About</a></li>
+              <li><a href="#"  data-section=".skills"> Skills</a></li>
+              <li><a href="" data-section=".gallery">Gallery</a></li>
+              <li><a href="" data-section=".timeline"> Timeline</a></li>
+              <li><a href="" data-section=".features"> Features</a></li>
+              <li><a href="" data-section=".testimonials"> Testimonials</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <!-- header-area -->
+      </div>
+
+      <div class="introduction-text">
+        <h1>we are <span>creative</span> agency</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been
+        </p>
+      </div>
+    </div>
+    <!-- landing-page -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About us</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="img/about-us.jpg" alt="somtihng" />
+        </div>
+      </div>
+    </div>
+    <!-- end about-us -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="100%"></span>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">bootstrap</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">jquery</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end our-skill -->
+
+    <div class="gallery">
+      <div class="container">
+        <h2>Our gallery</h2>
+        <div class="iamges-box">
+          <img src="img/01.jpg" alt="Image One">
+          <img src="img/02.jpg" alt="Image Two">
+          <img src="img/03.jpg" alt="Image Three">
+          <img src="img/04.jpg" alt="Image Four">
+          <img src="img/05.jpg" alt="Image Five">
+          <img src="img/06.png" alt="Image Six">
+          <img src="img/07.jpg" alt="Image Saven">
+          <img src="img/08.jpg" alt="Image Eight">
+          <img src="img/09.jpg" alt="Image Nine">
+          <img src="img/10.jpg" alt="Image Ten">
+        </div>
+      </div>
+    </div>
+    <!-- end of gallery part -->
+
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+
+          <div class="clear-fix"></div>
+
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+
+          <div class="clear-fix"></div>
+
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+          <div class="clear-fix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>testing Heading</h3>
+              <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae aut dignissimos cupiditate qui id ullam, velit non minus eligendi iste atque itaque unde natus saepe ad rerum animi obcaecati at.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- timeline -->
+
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="img/Icon_01.png" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="feat-box">
+          <img src="img/Icon_02.png" alt="">
+          <h4>Marketing</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="feat-box">
+          <img src="img/Icon_03.png" alt="">
+          <h4>Hosting</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="feat-box">
+          <img src="img/Icon_04.png" alt="">
+          <h4>Database</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="feat-box">
+          <img src="img/Icon_05.png" alt="">
+          <h4>Cloud and Servers</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="feat-box">
+          <img src="img/Icon_06.png" alt="">
+          <h4>SEO</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time </p>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </div>
+    <!-- features-part -->
+    <div class="testimonials">
+      
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing </p>
+          <div class="person-info">
+            <img src="img/agent_3.svg" alt="">
+            <h4>Ishoria  Brightman</h4>
+            <p>CEO at Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing </p>
+          <div class="person-info">
+            <img src="img/agent_2.svg" alt="">
+            <h4>Manuel Jakson</h4>
+            <p>CEO at Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>Iam very happy with the product its amazing and i recieve it very fast and the price was amazing </p>
+          <div class="person-info">
+            <img src="img/agent_1.svg" alt="">
+            <h4>Yousef Saad </h4>
+            <p>CEO at Company</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="clear-fix"></div>
+    </div>
+    <!-- testimonials -->
+
+    <div class="contact">
+      <!-- <div class="overlay"></div> -->
+      <div class="container">
+        <h2>Contact us </h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username">
+            <input type="text" placeholder="Your Phone" name="phone">
+            <input type="email" placeholder="Your Email" name="email">
+            <input type="text" placeholder="Subject" name="subject">
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Created with love by Nabil Awad</h2>
+      <h2>N/A</h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

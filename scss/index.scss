@@ -1,0 +1,41 @@
+$fa-font-path: '/fonts';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/regular';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/solid';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/brands';
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
+@import'./../node_modules/bootstrap/scss/bootstrap';
+@import'./../node_modules/bootstrap/scss/mixins';
+
+
+@import'./header-part';
+@import'./nav-bullets';
+@import'./setting-box';
+@import'./about-us';
+@import'./skills';
+@import'./gallery';
+@import'./timeline';
+@import'./features-part';
+@import'./testimonials';
+@import'./contact';
+@import'./footer-part';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+};
+
+body {
+  font-family: 'Open Sans', sans-serif;
+};
+
+:root {
+  --main-color: #ff9800;
+};
+
+.clear-fix {
+  clear: both;
+}
+

@@ -1,0 +1,122 @@
+.setting-box {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #ffffff;
+    width: 250px;
+    z-index: 1000000000000;
+    min-height: 100vh;
+    transition: 3s;
+    border: 2px solid #eee;
+    .toggle-setting {
+        position: absolute;
+        right: -30px;
+        top: 100px;
+        text-align: center;
+        background-color: #ffffff;
+        cursor: pointer;
+
+        .fa-cog {
+            font-size:20px;
+            padding: 8px 0;
+            width: 30px;
+        }
+
+    }
+
+    .setting-container {
+
+        .reset-option {
+            background-color: var(--main-color);
+            border: none;
+            width: 178px;
+            margin: 10px auto;
+            display: block;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .option-box {
+            padding: 20px;
+            text-align: center;
+            background-color: #eee;
+            h4 {
+                margin: 0;
+                color: var(--main-color);
+                font-size: 14px;
+                transition: 1s;
+
+            }
+
+            span {
+                width: 50x;
+                background-color: #009688;
+                color: #ffffff;
+                margin-top: 20px;
+                font-size: 14px;
+                display: inline-block;
+                padding: 4px 10px;
+                margin-top: 10px;
+                border-radius: 4px;
+                opacity: .5;
+                font-weight: bold;
+                cursor: pointer;
+            }
+
+            .active {
+                opacity: 1;
+            }
+
+            .color-list {
+                list-style: none;
+                text-align: center;
+                padding: 0;
+                margin-top: 10px;
+                
+
+                li {
+                    width: 30px;
+                    height: 30px;
+                    background-color: #333;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    opacity: 0.5;
+                    display: inline-block;
+                    border: 3px solid transparent;
+                    
+
+                    .active {
+                        opacity: 1;
+                        border: 3px solid #eeeeee;
+                    }
+
+                    &:first-child {
+                        background-color: #ff9800;
+                    }
+                    &:nth-child(2) {
+                        background-color: #03A9F4;
+                    }
+
+                    &:nth-child(3) {
+                        background-color: #E91E63;
+                    }
+                    &:nth-child(4) {
+                        background-color: #4CAF50;
+                    }
+                    &:nth-child(5) {
+                        background-color: purple;
+                    }
+                }
+            }
+        }
+    }
+
+    
+    
+}
+
+.open {
+    left:0;
+}
